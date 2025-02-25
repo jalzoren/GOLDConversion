@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gold Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="shortcut icon" type="x-icon" href="logaurr.png">
+</head>
+
+      <body>
+          <nav>
+              <div class="logo">GOLD.CONV</div>
+              <div class="source">
+                <a href ="https://goldpricez.com/ph/18k/gram#navbar" target="_blank">
+                    <i class="fas fa-link"></i>
+                </a>
+            </div>
+            
+            
+                      </nav>
+          <div class="section" id="main">
+            <div class="wrapper">
+                <div class="leftDiv">
+                  <h1>Gold Price Calculator
+                  <br>From Grams to Philippine Peso.</h1><br>
+                  <p>This gold converter provides a precise and efficient way to <br>
+                  convert gold from grams to Philippine Pesos. By utilizing real-time<br>
+                  market data, this tool ensures accurate calculations, allowing users<br>
+                  to determine the current value of their gold investments. Whether for<br>
+                  buying, selling, or valuation purposes, this converter offers a reliable<br>
+                  method for assessing gold prices in PHP. Stay informed and informed<br>
+                  financial decisions with up-to-date conversion rates.</p>
+                </div>
+
+              <div class="rightDiv">
+                <form action="" method="post">
+
+                    <h2>Gold Converter</h2><br>
+                    <label for="grams">Enter Gold (grams):</label><br>
+                    <input type="number" id="grams" placeholder="Enter grams"><br>
+                    <label for="gold">Choose type of Gold:</label><br>
+
+                    <select id="gold"><br>
+                      <option value="24k">24 Karat Gold</option>
+                      <option value="22k">22 Karat Gold</option>
+                      <option value="18k">18 Karat Gold</option>
+                      <option value="14k">14 Karat Gold</option>
+                      <option value="10k">10 Karat Gold</option>
+
+                    </select><br>
+                    
+                    <input type ="submit" name="send" value="Send">
+                    
+                    <h3>Total Value: <span id="totalPrice">0</span> PHP</h3>
+
+
+
+
+                </form>
+              </div>
+            </div>
+          </div>
+ 
+      </body>
+</html>
